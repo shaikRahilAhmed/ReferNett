@@ -30,11 +30,11 @@ const Nav = () => {
 
       {/* Mobile sidebar menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-gray-400 shadow-lg transform transition-transform duration-300 z-50
+        className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 z-50
           ${open ? "translate-x-0" : "translate-x-full"}
         `}
       >
-        <div className="flex flex-col p-6 gap-6">
+        <div className="flex flex-col p-6 gap-6 bg-gray-200">
           <Link href="/" className="hover:text-primary transition" onClick={() => setOpen(false)}>Home</Link>
           <Link href="/about" className="hover:text-primary transition" onClick={() => setOpen(false)}>About</Link>
           <Link href="/features" className="hover:text-primary transition" onClick={() => setOpen(false)}>Features</Link>
