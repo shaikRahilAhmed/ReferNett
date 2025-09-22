@@ -1,5 +1,6 @@
 import React from 'react'
-import Nav from '@/app/component/Nav'
+import Nav1 from '@/app/component/Nav1'
+
 
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
                 </svg>
                 <h1 className="text-2xl font-bold  text-blue-500 tracking-tight">ReferNet</h1>
             </div>
-            <Nav />
+            <Nav1 />
 
         </header>
 

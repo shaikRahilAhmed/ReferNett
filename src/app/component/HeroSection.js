@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-  <section1 className="flex flex-col items-center justify-center flex-1 text-center px-6 pt-10  ">
+  <section className="mt-2.5 flex flex-col items-center justify-center flex-1 text-center px-6 pt-10  ">
         <h2 className="text-5xl md:text-6xl font-extrabold text-dark leading-tight mb-6">
           Bridging <span className="text-blue-500">Students</span> &{" "}
           <span className="text-#00B894">Professionals</span>
@@ -48,7 +48,7 @@ const HeroSection = () => {
             <p className="text-gray-600">{f.text}</p>
           </div>
         ))}</div>
-      </section1>
+      </section>
 
     
       
