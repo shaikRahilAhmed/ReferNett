@@ -22,7 +22,7 @@ const Nav = () => {
 
       {/* Mobile hamburger button */}
       <div className="md:hidden flex items-center justify-between px-4 py-3">
-        <span className="font-bold text-lg"></span> {/* Replace with your logo if needed */}
+        <span className="font-bold text-lg"></span> 
         <button onClick={() => setOpen(!open)} className="text-2xl focus:outline-none">
           {open ? "✕" : "☰"}
         </button>
